@@ -14,6 +14,7 @@ public class Main{
         System.out.println("Digite o segundo numero inteiro");
         n2 = input.nextInt(); 
         operacao.calculaMedia(n1,n2);
+        double x = input.nextDouble();
         
         int resposta;
         resposta = operacao.multiplicacao();
